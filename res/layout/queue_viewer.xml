@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lazybitz.beta.light.player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <TextView
+        android:id="@+id/queue_title"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:padding="4dp"
+        android:background="@drawable/queue_title_bg_holo"
+        android:layout_margin="4dp"
+        android:textSize="@dimen/text_size_medium"        
+        android:textColor="@color/holo_blue_light"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_queue" />
+    
+    <com.mobeta.android.dslv.DragSortListView
+        android:id="@+id/queue_list_view"
+        android:layout_below="@+id/queue_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:collapsed_height="2dp"
+        app:drag_enabled="true"
+        app:drag_handle_id="@id/drag_handle"
+        app:drag_scroll_start="0.33"
+        app:drag_start_mode="onDown"
+        app:float_alpha="0.6"
+        app:max_drag_scroll_speed="0.5"
+        app:remove_enabled="false"
+        app:slide_shuffle_speed="0.3"
+        android:layout_above="@+id/my_playack_controls"
+         />
+    
+    <TextView android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_view_queue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <include
+		android:id="@+id/my_playack_controls"
+		android:layout_height="wrap_content"				
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true"
+        layout="@layout/playback_controls" 
+        />         
+
+</RelativeLayout>

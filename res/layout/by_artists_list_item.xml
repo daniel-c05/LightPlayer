@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_margin="4dp"
+        android:contentDescription="@string/image_art"
+        android:id="@+id/artist_thumb"
+        android:layout_width="180dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_height="180dp"
+        android:src="@drawable/dummy_art" />
+
+    <com.deadpixels.light.player.views.TransparentPanel
+        android:id="@+id/transparent_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/artist_thumb"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="4dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white" />
+    </com.deadpixels.light.player.views.TransparentPanel>
+
+</RelativeLayout>

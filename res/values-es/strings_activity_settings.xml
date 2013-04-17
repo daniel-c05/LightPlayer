@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="title_activity_settings">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    
+    <string name="pref_title_general">General</string>
+    <string name="pref_title_current_theme">Seleccionar tema claro</string>
+    
+    <!-- Data Usage settings -->
+    
+    <string name="pref_title_data_usage">Uso de Datos</string>
+    <string name="pref_title_disable_network_requests">Deshabilitar uso de red</string>
+    <string name="pref_summary_disable_network_requests">Normalmente LightPlayer descarga artes e información de Last.Fm</string>
+	
+	<!-- Playback settings -->
+	
+	<string name="pref_title_playback_settings">Ajustes de Reproducción</string>
+	<string name="pref_title_add_all_to_queue">Añadir todas a cola</string>
+	<string name="pref_summary_add_all_to_queue">Cada vez que reproduzcas una canción de una lista distinta, la nueva lista remplazará tu cola actual.</string>
+	
+</resources>

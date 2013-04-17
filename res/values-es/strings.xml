@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Hello World -->
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Titles -->
+
+    <string name="app_name">Light Player</string>
+    <string name="app_crashed">Oops! Light Player se ha cerrado forzosamente</string>
+    <string name="app_crashed_prompt">Favor provee una descripción del error</string>
+    <string name="title_edit_meta_dialog">Edita detalles de la canción</string>
+    <string name="title_edit_playlist_dialog">Edita lista de reproducción</string>
+    <string name="title_list_all_songs">Canciones</string>
+    <string name="title_list_artists">Artistas</string>
+    <string name="title_list_albums">Albúmes</string>
+    <string name="title_artist_bio">Bio</string>
+    <string name="title_artist_songs">Canciones</string>
+    <string name="title_artist_albums">Albúmes</string>
+    <string name="title_activity_artist_browser">Detalles de Artista</string>
+    <string name="title_activity_empty_holder">En Reproducción</string>
+    <string name="title_playlists"><b>Listas de reproducción</b></string>
+    <string name="empty_view_default">No hay data a mostrar.</string>
+    <string name="empty_view_playlist">No hay listas de reproducción a mostrar.</string>
+    <string name="empty_view_queue">No hay canciones en cola.</string>
+
+    <!-- Song Properties -->
+
+    <string-array name="song_properties">
+        <item>Titulo</item>
+        <item>Artista</item>
+        <item>Albúm</item>
+    </string-array>
+
+    <!-- Buttons -->
+
+    <string name="button_play">Reproducir</string>
+    <string name="button_previous">Anterior</string>
+    <string name="button_next">Siguiente</string>
+    <string name="button_stop">Detener</string>
+    <string name="button_shuffle">Mezclar</string>
+    <string name="button_repeat">Repetir</string>
+    <string name="button_save_changes">Guardar cambios</string>
+    <string name="button_new_playlist">Nueva lista de reproducción</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Borrar</string>
+
+    <!-- Menus -->
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_favorite">Favorito</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_play_all">Reproducir todas</string>
+    <string name="menu_clear_queue">Limpiar cola</string>
+    <string name="menu_select_all">Seleccionar Todos</string>
+    <string name="menu_enqueue">Agregar a cola</string>
+    <string name="menu_add_to_playlist">Agregar a lista de reproducción</string>
+    <string name="menu_save_as_playlist">Guardar como lista de reproducción</string>
+    <string name="menu_edit_meta">Editar Meta Datos</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_move_up">Mover arriba</string>
+    <string name="menu_move_down">Mover abajo</string>
+    <string name="menu_rename_playlist">Renombrar</string>
+    <string name="menu_edit_playlist">Editar</string>
+    <string name="menu_download_art">Cambiar Arte Visual</string>
+    <string name="menu_remove_from_list">Borrar</string>
+    <string name="image_art">Arte Visual</string>
+    <string name="text_title">Titulo de Canción</string>
+    <string name="text_playlist_spinner_title"><b>Listas de reproducción:</b></string>
+    <string name="text_back_to_local">Arte Visual Local</string>
+    <string name="text_artist">Artista</string>
+    <string name="bio_empty_content">No información disponible</string>
+    <string name="play_all">Reproducir todas</string>
+    <string name="title_queue"><b>Cola Actual</b></string>
+    <string name="search_hint">Buscar Música</string>
+    <string name="hint_edit_playlist_name">Ingresa un nombre para tu lista de reproducción</string>
+    <string name="title_activity_search_result">Resultados de búsqueda</string>
+
+</resources>

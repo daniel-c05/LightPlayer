@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="screen_background_holo_light">#fff3f3f3</drawable>
+    <drawable name="screen_background_holo_dark">#ff000000</drawable>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="bright_foreground_holo_dark">@color/background_holo_light</color>
+    <color name="bright_foreground_holo_light">@color/background_holo_dark</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="bright_foreground_inverse_holo_dark">@color/bright_foreground_holo_light</color>
+    <color name="bright_foreground_inverse_holo_light">@color/bright_foreground_holo_dark</color>
+    <color name="dim_foreground_holo_dark">#bebebe</color>
+    <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="hint_foreground_holo_dark">#808080</color>
+    <color name="dim_foreground_holo_light">#323232</color>
+    <color name="dim_foreground_disabled_holo_light">#80323232</color>
+    <color name="dim_foreground_inverse_holo_light">#bebebe</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
+    <color name="hint_foreground_holo_light">#808080</color>
+    <color name="highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="highlighted_text_holo_light">#6633b5e5</color>
+    <color name="link_text_holo_dark">#5c5cff</color>
+    <color name="link_text_holo_light">#0000ee</color>
+    
+	<!-- Holo Standard Colors -->
+    <color name="holo_blue_light">#33B5E5</color>
+    <color name="holo_blue_dark">#0099CC</color>
+    
+    <color name="holo_purple_light">#AA66CC</color>
+    <color name="holo_purple_dark">#9933CC</color>
+    
+    <color name="holo_green_light">#99CC00</color>
+    <color name="holo_green_dark">#669900</color>
+    
+    <color name="holo_orange_light">#FFBB33</color>
+    <color name="holo_orange_dark">#FF8800</color>
+    
+    <color name="holo_red_light">#FF4444</color>
+    <color name="holo_red_dark">#CC0000</color>
+    
+    <!-- A transparent black -->
+    <color name="transparent_black">#99000000</color>
+
+    <!-- A semi-transparent dark Holo shade of blue -->
+    <color name="semi_transparent_holo_blue_dark">#ff0099cc</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Black -->
+    <color name="black">#ff000000</color>
+
+    <!-- White -->
+    <color name="white">#ffffffff</color>
+
+    <!-- Quick Queue line seperator -->
+    <color name="queue_callout_line">#99ffffff</color>
+
+</resources>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchResult" >
+
+    <ListView
+        android:id="@+id/search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_album_image" />
+
+    <ImageView
+        android:id="@+id/search_album_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/search_album_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/search_album_image"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/search_album_artist"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/search_album_title"
+        android:layout_toRightOf="@+id/search_album_image"
+        android:background="@drawable/textview_selector"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#808080"
+        android:visibility="gone" />
+
+</RelativeLayout>

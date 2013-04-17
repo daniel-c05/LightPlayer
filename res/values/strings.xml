@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Hello World -->
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Titles -->
+
+    <string name="app_name">Light Player</string>
+    <string name="app_crashed">Oops! Light Player has crashed</string>
+    <string name="app_crashed_prompt">Enter a comment for the developer</string>
+    <string name="title_edit_meta_dialog">Edit Song Details</string>
+    <string name="title_edit_playlist_dialog">Edit Playlist</string>
+    <string name="title_list_all_songs">Songs</string>
+    <string name="title_list_artists">Artists</string>
+    <string name="title_list_albums">Albums</string>
+    <string name="title_artist_bio">Bio</string>
+    <string name="title_artist_songs">Songs</string>
+    <string name="title_artist_albums">Albums</string>
+    <string name="title_activity_artist_browser">ArtistBrowser</string>
+    <string name="title_activity_empty_holder">Now Playing</string>
+    <string name="title_playlists"><b>Playlists</b></string>
+    <string name="empty_view_default">No items to display.</string>
+    <string name="empty_view_playlist">No playlists to display.</string>
+    <string name="empty_view_queue">No songs queued.</string>
+
+    <!-- Song Properties -->
+
+    <string-array name="song_properties">
+        <item>Title</item>
+        <item>Artist</item>
+        <item>Album</item>
+    </string-array>
+
+    <!-- Buttons -->
+
+    <string name="button_play">Play</string>
+    <string name="button_previous">Previous</string>
+    <string name="button_next">Next</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_shuffle">Shuffle</string>
+    <string name="button_repeat">Repeat</string>
+    <string name="button_save_changes">Save Changes</string>
+    <string name="button_new_playlist">New Playlist</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+
+    <!-- Menus -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_play_all">Play all</string>
+    <string name="menu_clear_queue">Clear Queue</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="menu_enqueue">Add to queue</string>
+    <string name="menu_add_to_playlist">Add to Playlist</string>
+    <string name="menu_save_as_playlist">Save as Playlist</string>
+    <string name="menu_edit_meta">Edit Meta Data</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_move_up">Move up</string>
+    <string name="menu_move_down">Move down</string>
+    <string name="menu_rename_playlist">Rename</string>
+    <string name="menu_edit_playlist">Edit</string>
+    <string name="menu_download_art">Change album art</string>
+    <string name="menu_remove_from_list">Delete</string>
+    <string name="image_art">Album art</string>
+    <string name="text_title">Song Title</string>
+    <string name="text_playlist_spinner_title"><b>Your Playlists:</b></string>
+    <string name="text_back_to_local">Local Album Art</string>
+    <string name="text_artist">Song Artist</string>
+    <string name="bio_empty_content">No information available</string>
+    <string name="play_all">Play All</string>
+    <string name="title_queue"><b>Current Queue</b></string>
+    <string name="search_hint">Find Music</string>
+    <string name="hint_edit_playlist_name">Enter a new name for your playlist</string>
+    <string name="title_activity_search_result">Search Results</string>
+
+</resources>

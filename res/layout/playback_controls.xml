@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/controls_bg_holo"
+    android:orientation="horizontal" >
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/dividerVertical" />
+
+    <ImageView
+        android:id="@+id/controls_art"
+        android:paddingTop="2dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/dummy_thumb" />
+
+    <LinearLayout
+        android:id="@+id/controls_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/controls_buttons"
+        android:layout_toRightOf="@+id/controls_art"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/controls_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/controls_song"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:maxLines="1" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/controls_art"
+        android:background="?android:attr/dividerVertical" />
+
+    <LinearLayout
+        android:id="@+id/controls_buttons"
+        android:layout_width="fill_parent"
+        android:paddingTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/controls_art"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/button_previous"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_previous"
+            android:src="?attr/action_previous" />
+        
+         <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <ImageButton
+            android:id="@+id/button_play"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_play"
+            android:src="?attr/action_play" />
+        
+         <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <ImageButton
+            android:id="@+id/button_next"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_next"
+            android:src="?attr/action_next" />
+    </LinearLayout>
+
+</RelativeLayout>

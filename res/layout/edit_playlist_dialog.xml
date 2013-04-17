@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/edit_playlist_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="8dp"
+        android:textSize="@dimen/text_size_medium" />
+
+    <EditText
+        android:id="@+id/edit_playlist_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_playlist_title"
+        android:ems="10"
+        android:hint="@string/hint_edit_playlist_name" >
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/edit_playlist_input"
+        android:background="?android:attr/dividerVertical" />
+
+    <LinearLayout
+        android:id="@+id/edit_playlist_button_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_playlist_input"
+        android:orientation="horizontal"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:paddingTop="0dip" >
+
+        <Button
+            android:id="@+id/edit_playlist_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_cancel" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <Button
+            android:id="@+id/edit_playlist_save"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_save" />
+    </LinearLayout>
+
+</RelativeLayout>

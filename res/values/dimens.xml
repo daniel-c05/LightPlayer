@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <!-- Text Sizes -->
+    
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_extra_large">26sp</dimen>
+    
+    <!-- Button Sizes -->
+    
+    <dimen name="button_action_normal">32dp</dimen>
+    <dimen name="button_action_large">48dp</dimen>
+    
+    <!-- Padding Dimens -->
+    
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    
+    <!-- Margin Dimens -->
+    
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_large">12dp</dimen>
+    <dimen name="margin_extra_large">16dp</dimen>
+    
+    <dimen name="slidingmenu_offset">120dp</dimen>
+    <dimen name="slidingmenu_expanded">0dp</dimen>  
+    <dimen name="shadow_width">15dp</dimen>
+    
+    <dimen name="header_icon_width">28dp</dimen>
+    
+</resources>

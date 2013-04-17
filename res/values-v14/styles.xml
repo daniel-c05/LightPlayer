@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="DarkTheme" parent="android:Theme.Holo">
+        <!-- API 11 theme customizations can go here. -->
+        
+        <item name="action_play">@drawable/ic_play_holo_dark</item>
+        <item name="action_pause">@drawable/ic_pause_holo_dark</item>
+        <item name="action_next">@drawable/ic_next_holo_dark</item>
+        <item name="action_previous">@drawable/ic_prev_holo_dark</item>
+        <item name="action_repeat">@drawable/ic_repeat_holo_dark</item>
+        <item name="action_shuffle">@drawable/ic_shuffle_holo_dark</item>
+        <item name="action_expand">@drawable/navigation_expand</item>
+        <item name="action_collapse">@drawable/navigation_collapse</item>
+        <item name="action_new">@drawable/ic_new_holo_dark</item>
+        <item name="action_drag">@drawable/ic_drag_dots_holo_dark</item>
+        <item name="action_edit">@drawable/ic_edit_holo_dark</item>
+        <item name="action_enqueue">@drawable/ic_enqueue_holo_dark</item>
+        <item name="action_about">@drawable/ic_about_holo_dark</item>
+        <item name="action_bar_songs">@drawable/title_songs_holo_dark</item>
+        <item name="action_bar_artists">@drawable/title_artists_holo_dark</item>
+        <item name="action_bar_albums">@drawable/title_albums_holo_dark</item>
+        <item name="action_search">@drawable/ic_search_holo_dark</item>
+                
+    </style>
+
+    <style name="LightTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+        
+           <item name="action_play">@drawable/ic_play_holo_light</item>
+        <item name="action_pause">@drawable/ic_pause_holo_light</item>
+        <item name="action_next">@drawable/ic_next_holo_light</item>
+        <item name="action_previous">@drawable/ic_prev_holo_light</item>
+        <item name="action_repeat">@drawable/ic_repeat_holo_light</item>
+        <item name="action_shuffle">@drawable/ic_shuffle_holo_light</item>
+        <item name="action_expand">@drawable/navigation_expand</item>
+        <item name="action_collapse">@drawable/navigation_collapse</item>
+        <item name="action_new">@drawable/ic_new_holo_light</item>
+        <item name="action_drag">@drawable/ic_drag_dots_holo_dark</item>
+        <item name="action_edit">@drawable/ic_edit_holo_light</item>
+        <item name="action_enqueue">@drawable/ic_enqueue_holo_light</item>
+        <item name="action_about">@drawable/ic_about_holo_light</item>
+        <item name="action_bar_songs">@drawable/title_songs_holo_light</item>
+        <item name="action_bar_artists">@drawable/title_artists_holo_light</item>
+        <item name="action_bar_albums">@drawable/title_albums_holo_light</item>
+        <item name="action_search">@drawable/ic_search_holo_light</item>
+        
+    </style>
+
+</resources>

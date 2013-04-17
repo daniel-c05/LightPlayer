@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <attr name="action_play" format="reference" />
+    <attr name="action_pause" format="reference" />
+    <attr name="action_next" format="reference" />
+    <attr name="action_previous" format="reference" />
+    <attr name="action_repeat" format="reference" />
+    <attr name="action_shuffle" format="reference" />
+    <attr name="action_expand" format="reference" />
+    <attr name="action_collapse" format="reference" />
+    <attr name="action_new" format="reference" />
+    <attr name="action_drag" format="reference" />
+    <attr name="action_edit" format="reference" />
+    <attr name="action_add" format="reference" />
+    <attr name="action_enqueue" format="reference" />
+    <attr name="action_about" format="reference" />
+    <attr name="action_search" format="reference" />
+    <attr name="action_bar_songs" format="reference" />
+    <attr name="action_bar_albums" format="reference" />
+    <attr name="action_bar_artists" format="reference" />
+    <attr name="action_bar_about" format="reference" />
+
+</resources>	

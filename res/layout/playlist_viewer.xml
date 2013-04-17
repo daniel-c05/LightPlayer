@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lazybitz.beta.light.player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/playlists_title"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/queue_title_bg_holo"
+        android:padding="4dp"
+        android:text="@string/title_playlists"
+        android:textColor="@color/holo_blue_light"
+        android:textSize="@dimen/text_size_medium" />
+
+    <Spinner
+        android:id="@+id/playlist_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/playlists_title"
+        android:layout_margin="@dimen/margin_small" />
+
+    <com.mobeta.android.dslv.DragSortListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:collapsed_height="2dp"
+        app:drag_enabled="true"
+        app:drag_handle_id="@id/drag_handle"
+        app:drag_scroll_start="0.33"
+        app:drag_start_mode="onDown"
+        app:float_alpha="0.6"
+        app:max_drag_scroll_speed="0.5"
+        app:remove_enabled="false"
+        app:slide_shuffle_speed="0.3"
+        android:layout_below="@+id/playlist_spinner"
+         />
+
+    <TextView
+        android:id="@+id/empty_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_view_playlist"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

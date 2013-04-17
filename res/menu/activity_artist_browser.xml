@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    
+     <item
+        android:id="@+id/menu_search"
+        android:icon="?attr/action_search"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/menu_search"/>
+
+</menu>

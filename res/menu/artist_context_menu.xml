@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_play_all_from_artist"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_play_all"/>
+    
+    <item
+        android:id="@+id/menu_add_to_playlist_from_artist"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/menu_add_to_playlist"/>    
+
+</menu>
